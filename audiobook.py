@@ -17,4 +17,4 @@ while i<pdf.getnumpages():
     i += 1 #to amke it as one piece
 
 final_file = gTTS(text = string_of_text, lang = 'en') #store file in variable
-final_file.save("Generated speech.mp3")  # save file to computer
+final_file.save("audiofile.mp3")  # save file to computer
